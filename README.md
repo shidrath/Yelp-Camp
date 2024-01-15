@@ -7,7 +7,6 @@ This is a Full Stack project  has been developed to demonstrate the use of MEBN 
 - The front end is made using Bootstrap library and Javascript
 - For the backend ExpressJS has been used and for database MongoDB has been used
 - The website is hosted on a webserver using render.com
-- 
 
 #Readme 
 
