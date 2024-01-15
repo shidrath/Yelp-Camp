@@ -2,12 +2,12 @@
   "name": "yelpcamp-full-stack-application",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "shidrath rahman haider",
   "license": "ISC",
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.15.3",
