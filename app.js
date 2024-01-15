@@ -54,7 +54,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(mongoSanitize()) // to make sure not Mongo injection is never done
 
 const store = new MongoDBStore({
-    url: 'mongodb://localhost:27017/yelp-camp',
+    url: dbUrl,
     secret: 'thisshouldbebettersecret!',
     touchAfter: 24* 3600 // update in every 24hrs
 })
