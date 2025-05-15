@@ -20,7 +20,7 @@ const mongoSanitize = require('express-mongo-sanitize');
 const userRoutes = require('./routes/users');
 const campgroundRoutes = require('./routes/campgrounds');
 const reviewRoutes = require('./routes/reviews');
-const dbUrl = 'mongodb+srv://shidrath:FBwjWgx4eVwInHEQ@cluster0.cs5yzfe.mongodb.net/?retryWrites=true&w=majority'
+const dbUrl = 'mongodb+srv://shidrath:sid%40SAMPLE1@yelp-camp.65i28e9.mongodb.net/?retryWrites=true&w=majority&appName=Yelp-Camp'
 
 mongoose.set('strictQuery', false);
 //'mongodb://localhost:27017/yelp-camp'
@@ -157,6 +157,6 @@ app.use((err,req,res,next) => {
     if(!err.message) err.message = 'Oh No, something went wrong!';
     res.status(statusCode).render('error', { err })
 });
-app.listen(3000,() =>{
+app.listen(3001,() =>{
     console.log('serving on port 3000')
 } );
